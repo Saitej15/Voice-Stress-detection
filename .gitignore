@@ -1,0 +1,28 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Local Data / Large Datasets
+Actor_*/
+audio_speech_actors_*/
+audio_speech_actors_01-24/
+outputs/
+
+# Python / Scripts
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Models
+# model.joblib  # Uncomment if you want to exclude the model too
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
